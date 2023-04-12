@@ -1,0 +1,77 @@
+body:not(#formulario) {
+    padding: 1rem;
+    color:black;
+    background-image: url(../fundo.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    font-size: 22px;
+    backdrop-filter: opacity(50%);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+table{
+    /* font size="8" border="1px" bgcolor="#FFC0CB" bordercolor-"#C71585" */
+    font-size: 20px;
+    border: 1px solid #000000;
+    background-color: rgb(255, 205, 251);
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid #000000;
+}
+td{
+    border-right: 1px solid #000000;
+}
+th{
+    border-right: 1px solid #000000;
+}
+#formulario{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../fundo.jpg);
+    background-size: cover;
+}
+form{
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: white;
+
+}
+form p{
+    text-align: center;
+    font-weight: bold;
+}
+form div{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+form label{
+    font-weight: bold;
+}
+form div#interesses{
+    display: unset;
+}
+form textarea{
+    resize: none;
+}
+h2 a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    border-radius:4px;
+    background-color: #f3cdff;
+    transition: all ease 400ms;
+}
+h2 a:hover{
+    opacity: 0.5;
+}
+#click{
+    transform:rotate(35deg);
+}

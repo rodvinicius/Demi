@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="formulario">
+    <div>
+        <h1 id="titulo">Cadastro de notificação</h1>
+        <br>
+    </div>
+    <form action="./Novo.html">
+        <p id="subtitulo">Complete suas informações</p>
+        <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            <div>
+                <label for="email">Email</label>
+                <input required type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="estado">Estado</label>
+                <select id="estado" >
+                    <option selected disabled value="">selecione</option>
+                    <option>Acre</option>
+                    <option>Alagoas</option>
+                    <option>Amapá</option>
+                    <option>Amazonas</option>
+                    <option>Bahia</option>
+                    <option>Ceará</option>
+                    <option>Distrito Federal</option>
+                    <option>Espírito Santo</option>
+                    <option>Goiás</option>
+                    <option>Maranhão</option>
+                    <option>Mato Grosso</option>
+                    <option>Mato Grosso do Sul</option>
+                    <option>Minas Gerais</option>
+                    <option>Pará</option>
+                    <option>Paraíba</option>
+                    <option>Paraná</option>
+                    <option>Pernambuco</option>
+                    <option>Piauí</option>
+                    <option>Rio de janeiro</option>
+                    <option>Rio Grande do Norte</option>
+                    <option>Rio Grande do Sul</option>
+                    <option>Rondônia</option>
+                    <option>Roraíma</option>
+                    <option>Santa Catarina</option>
+                    <option>São Paulo</option>
+                    <option>Sergipe</option>
+                    <option>Tocantins</option>
+
+                </select>
+            </div>
+            <div id="interesses">
+                <label>Selecione quais seus interesses</label><br><br>
+                <input type="checkbox" id="checkbox1" name="checkbox1" value="turnês" >
+                <label for="checkbox1">turnês</label>
+                <input type="checkbox" id="checkbox2" name="checkbox2" value="novos albuns">
+                <label for="checkbox2">novos albuns</label>
+                <input type="checkbox" id="checkbox3" name="checkbox3" value="novas postagens">
+                <label for="checkbox3">novas postagens</label>
+            </div>
+        <br><br>
+            <div>
+                <label>Fique a vontade para se expressar</label>
+                <textarea rows="10" style="width: 30em" id="expressar" name="expressar"></textarea>
+            </div>
+        <button type="submit">enviar</button>
+    </form>
+
+    
+</body>
+</html>
